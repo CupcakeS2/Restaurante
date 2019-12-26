@@ -1,20 +1,31 @@
     
     body{
-            background-color: goldenrod;
+            background-color: rgb(221, 41, 41);
             font-family: Arial, Helvetica, sans-serif;
         }
 
     h1
     {
-        color:white;
+        color:black;
     } 
     
+    .banner
+    {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        opacity: 0.9;
+    }
+
     .conteudo
     {
         background-color:white;
-        width: 60%;
+        width: 75%;
         position: relative;
-        top:50px;
-        left: 20%;
-        right: 20%;
+        top:-50px;
+        left: 13%;
+        right: 13%;
+
+        border-radius: 4px;
     }
